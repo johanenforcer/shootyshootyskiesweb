@@ -55,12 +55,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.aboutsection{
-  background-image: url("../assets/img/goodshit.png");
-  background-repeat: round;
-}
-
-
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -596,6 +590,17 @@ pre code {
   margin-left: auto;
 }
 
+@media (max-width: 800px) {
+  .gridcontainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 670px) {
+  .gridcontainer img{
+    transform: scale(0.7, 0.7);
+  }
+}
 
 @media (min-width: 576px) {
   .container-sm, .container {
