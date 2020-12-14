@@ -64,6 +64,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
   justify-content: center;
+  align-items: center;
 }
 
 input[type=checkbox] {
