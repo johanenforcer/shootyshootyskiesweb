@@ -69,6 +69,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 .flexcontainer{
   display:flex;
+  flex-direction: row;
   grid-gap: 10rem;
   justify-content: center;
 }
