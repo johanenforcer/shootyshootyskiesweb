@@ -67,6 +67,21 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   align-items: center;
 }
 
+.flexcontainer{
+  display:flex;
+  grid-gap: 10rem;
+  justify-content: center;
+}
+
+
+@media (max-width: 1200px) {
+  .flexcontainer {
+    flex-direction: column;
+    grid-gap: 20px;
+  }
+}
+
+
 input[type=checkbox] {
   display: none;
 }
